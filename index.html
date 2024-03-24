@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="g_favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="g_favicon.png" type="image/x-icon">
+</head>
+
+<body>
+     <!-- Nav bar Section -->
+    <header>
+        <div class="header-left">
+            <ul>
+                <li><a href="https://about.google/">About</a></li>
+                <li><a href="https://store.google.com/">Store</a></li>
+            </ul>
+        </div>
+        <div class="header-right">
+            <ul>
+                <li><a href="image.html">Image Search</a></li>
+                <li><a href="advanced.html">Advanced Search</a></li>
+                <li class="sign-in">
+                    <button type="submit"><a href="https://accounts.google.com/ServiceLogin">Sign in</a></button>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <div class="text-center">
+            <a href="https://cs50.harvard.edu/web/2020/projects/0/search/" target="_blank">
+                <img class="google" alt="Google Search" src="gdoodle.gif" title="Google Doodle">
+            </a>
+            <form action="https://google.com/search" method="get">
+                <div class="search-bar">
+                    <input type="text" name="q" required class="search-input" autofocus>
+                    <img src="search-icon.png" alt="Search Icon" class="search-icon">
+                </div>
+                <div>
+                    <input type="submit" value="Google Search">
+                    <input type="submit" name="btnI" value="I'm Feeling Lucky">
+                    <input type="hidden" name="search" value="web50">
+                </div>
+                
+            </form>
+        </div>
+    </main>
+    
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-left">
+            <ul>
+                <li><a href="https://ads.google.com/intl/en_de/home/">Advertising</a></li>
+                <li><a href="https://smallbusiness.withgoogle.com/intl/de_de/">Business</a></li>
+                <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <ul>
+                <li><a href="https://policies.google.com/privacy?hl=en-DE&fg=1">Privacy</a></li>
+                <li><a href="https://policies.google.com/terms?hl=en-DE&fg=1">Terms</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>

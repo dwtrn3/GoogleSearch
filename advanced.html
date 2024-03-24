@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="g_favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="g_favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Nav bar Section -->
+    <header>
+        <div class="header-left">
+            <ul>
+                <a href="https://cs50.harvard.edu/web/2020/projects/0/search/">
+                    <img class="google-advanced" alt="Google Search" src="googlelogo.png" title="Google">
+                </a>  
+            </ul>
+        </div>
+        
+        <div class="header-right">
+            <ul>
+                <li><a href="index.html">Google Search</a></li>
+                <li><a href="image.html">Image Search</a></li>
+                <li class="sign-in">
+                    <button type="submit"><a href="https://accounts.google.com/ServiceLogin">Sign in</a></button>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+    <!-- Main Content Section -->
+    <main class="adsearch">  
+        <div class="container">  
+            <div class="advanced">Advanced Search</div>
+            <hr class="horizontal-line">
+            <form action="https://www.google.com/search" method="get">
+                <div class="find-pages">Find pages with...</div>
+                <div class="advanced-search">
+                    <label for="all-words">all these words:</label>
+                    <input type="text" autofocus name="as_q">
+                    <label for="exact-phrase">this exact word or phrase:</label>
+                    <input type="text" name="as_epq">
+                    <label for="any-words">any of these words:</label>
+                    <input type="text" name="as_oq">
+                    <label for="none-words">none of these words:</label>
+                    <input type="text" name="as_eq">
+                    <input type="hidden" name="ad_se" value="adsearch">
+                </div>
+                <button type="submit" class="advanced-submit">Advanced Search</button>  
+            </form>
+        </div>     
+    </main>
+    
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-left">
+            <ul>
+                <li><a href="https://support.google.com/websearch/">Help</a></li>
+                <li><a href="https://policies.google.com/privacy?hl=en-DE&fg=1">Privacy</a></li>
+                <li><a href="https://policies.google.com/terms?hl=en-DE&fg=1">Terms</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,289 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #ffffff;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    position: fixed;
+    margin-top: 2px;
+    width: calc(100% - 40px);
+    text-decoration: none;
+}
+
+/* Header Left and Right styles */
+.header-left ul,
+.header-right ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-left ul li {
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.header-right ul li {
+    font-size: 13px;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+
+/* Header link styles */
+.header-left a,
+.header-right a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.header-left a:hover,
+.header-right a:hover {
+    text-decoration: underline;
+}
+
+/* Sign-in button styles */
+.sign-in button {
+    background-color: #1a73e8;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #ffffff; 
+    font-style: Google Sans;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sign-in button a {
+    color: #ffffff;
+    text-decoration: none; 
+}
+
+.sign-in button:hover {
+    background-color: #4285f4; 
+    text-decoration: none; 
+}
+
+/* Google Logo styles */
+.google {
+    width: 400px;
+    height: 150px;
+    margin: 120px auto 10px;
+}
+
+.google-logo {
+    width: 272px;
+    height: 92px;
+    margin: 140px auto 20px;
+}
+
+.google-advanced {
+    width: 90px;
+    height: 28px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    text-align: center; 
+}
+
+/* Search bar styles */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 582px;
+    height: 46px;
+    margin: 10px auto 16px;
+    position: relative;
+}
+
+.search-bar img.search-icon {
+    position: absolute;
+    left: 12px;
+    height: 14px;
+    padding-left: 12px;
+}
+
+.search-input {
+    border-radius: 20px;
+    padding: 12px 15px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: calc(100% - 39px);
+    padding-left: 40px;
+}
+
+/* Button group styles */
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* Button styles */
+input[type="submit"],
+.search-button,
+.lucky-button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 2px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 130px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+input[type="submit"]:hover,
+.search-button:hover,
+.lucky-button:hover {
+    background-color: #e0e0e0;
+}
+
+/* "I'm Feeling Lucky" button styles */
+.lucky-button {
+    background-color: #000000;
+    color: white;
+    border: none;
+}
+
+.lucky-button:hover {
+    background-color: #000000;
+}
+
+/* Advanced Search container styles */
+.container {
+    margin-top: 80px;
+    padding: 0px 10px;
+    width: 70%; 
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+/* Advanced Search section styles */
+.advanced {
+    color: #d93025;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.horizontal-line {
+    border: none;
+    border-top: 0.5px solid #ccc;
+    margin: 25px 0;
+}
+
+.find-pages {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.advanced-search label {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 8px;
+    margin-left: 0;
+    text-align: left;
+}
+
+/* Advanced Search input styles */
+.advanced-search input[type="text"] {
+    display: inline-block;
+    width: calc(75%);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Advanced Search button styles */
+.advanced-submit {
+    background-color: #4d90fe;
+    color: white;
+    border-color: #1a73e8;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    margin-left: auto; 
+    margin-top: 10px;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    outline: 0;
+    padding: 0 8px;
+    float: right;
+}
+
+.advanced-submit:hover {
+    background-color: #4285f4;
+    text-decoration: none;
+}
+
+/* Footer styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px 40px;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 80px);
+}
+
+.footer-left,
+.footer-right {
+    width: auto;
+}
+
+.footer-left ul,
+.footer-right ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-left ul li,
+.footer-right ul li {
+    margin-right: 20px;
+}
+
+.footer-left a,
+.footer-right a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-left a:hover,
+.footer-right a:hover {
+    text-decoration: underline;
+}
